@@ -1,5 +1,5 @@
 # HomeNetwork
-
+![alt text](assets/1000002679.jpg)
 # Background
 I initially bought a pi to run Pi-Hole when I lived on campus at my University, I wanted to run a lite OS but couldn't figure out how to connect it to the wifi without a GUI. Glancing over at my cisco stuff I started this project. I bought the server later to spin up VMs for a cyber range, and help my peers prepare for CCDC but I ran into trouble using ansible.
 
@@ -31,7 +31,6 @@ Switch config
 ---
 
 Here is my rack setup
-![alt text](assets/1000002679.jpg)
 ![alt text](assets/1000002678.jpg)
 ![alt text](assets/1000002679.jpg)
 ![alt text](assets/1000002248.jpg)
