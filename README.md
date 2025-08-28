@@ -11,7 +11,7 @@ The current state of this project:
 ---
 
 ## Equiptment
-  - Dell Poweredge R720xd (enterprise drives)   # Currently running ESXi
+  - Dell Poweredge R720xd (enterprise drives)   # Currently running ESXi Crucial BX500 SATA SSD
   - Cisco 2851 Router
   - Cisco Catalyst 3560G Switch
   - Raspberry Pi 5
