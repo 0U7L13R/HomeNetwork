@@ -29,7 +29,7 @@ Switchport Config
 ## Sniffer Setup
 
 The Dell R720 has 4 dedicated NIC ports.  
-For packet analysis in the SOC, one port is reserved in **promiscuous mode** as a sniffer, while the other three are used for load balancing.  
+For packet analysis in the SOC, one port is reserved as a sniffer, while the other three are used for load balancing.  
 
 ### Steps
 1. Configured NIC ports **1–3** as **trunk ports** with identical settings.  

@@ -4,12 +4,6 @@
 ---
 
 ![alt text](assets/Front.jpg)
-# Background
-I initially bought a Raspberry Pi to start a small project running Pi-Hole while I was at University. After struggling to get it connected to Wi-Fi without a GUI, I glanced over at my unused Cisco gear and decided to start building out a network.
-
-When my ambitions grew the Pi became obsolete, so I bought a dedicated server. I wanted to expand, host more services and even VMs. At this point I started to study for the CCNA.
-
-My ambitions grew again, I wanted to model a corporate network, complete with a security stack, and a proper lab enviroment of VMs. So that I would learn the roles of analyst, engineer, and GRC.
 
 ---
 
@@ -39,7 +33,6 @@ My ambitions grew again, I wanted to model a corporate network, complete with a 
 # Current State
 - Network is up and running with VLANS, I still need to implement proper ACLs.
 - Server is up and running as well, including iDRAC and such, and you can spin up and SSH into VMs.
-- Raspberry Pi of course is no longer working. As I am transfering the apps I ran on it to the server.
 
 I am currently focuing on getting my apps up and running.
 

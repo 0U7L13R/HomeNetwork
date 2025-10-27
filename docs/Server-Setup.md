@@ -1,6 +1,6 @@
 ## R720 Server / Setup and Configuration
 
-This guide walks through the initial setup of a Dell PowerEdge R720xd, focusing on configuring **iDRAC** for remote management and install/config of **VMware ESXi**. 
+This guide walks through the initial setup of a Dell PowerEdge R720xd, configuring **iDRAC** for remote management and install/config of **VMware ESXi**. 
 
 The goal here is to get the server into a usable state with proper management access, RAID configured, and networking ready for virtualization. 
 
@@ -18,7 +18,6 @@ The goal here is to get the server into a usable state with proper management ac
 8. Install **ESXi**  
 9. Configure **ESXi Management Network (F2)**  
 10. Verify **ESXi connectivity** (ping + web login)  
-11. Done!
 
 
 
@@ -114,7 +113,7 @@ After booting into ESXi:
 That’s really all we need to do here.
 
 ---
-## Done!
+## Done
 
 At this point, you should be able to reach the web interfaces for both **iDRAC** and **ESXi** from another machine on the network.  
 
