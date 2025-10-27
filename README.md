@@ -1,4 +1,4 @@
-# CorpoSec Network
+# HomeNetwork
 *Corporate style home network & cyber range*
 
 ---
