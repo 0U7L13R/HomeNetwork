@@ -6,20 +6,19 @@ The goal here is to get the server into a usable state with proper management ac
 
 ---
 
-## Order of Operations
+## Order of Operations  
 
 1. Enter **System Setup (F2)**  
 2. Configure **BIOS Settings** (UEFI + boot order)  
 3. Configure **iDRAC Settings** (set static IP)  
-4. Verify **iDRAC connectivity** (ping + web login)  
+4. Verify **iDRAC connectivity** (web login)  
 5. Check **Device Settings** (NICs, disable VLAN mode)  
-6. Reboot and enter **RAID Config (Ctrl+R)**  
-7. Create and initialize **Virtual Disk Group**  
-8. Install **ESXi**  
+6. Install **ESXi**  
+7. Reboot and enter **RAID Config (Ctrl+R)**  
+8. Create and initialize **Virtual Disk Group**  
 9. Configure **ESXi Management Network (F2)**  
-10. Verify **ESXi connectivity** (ping + web login)  
-
-
+10. Verify **ESXi connectivity** (web login)  
+ 
 
 ---
 
@@ -78,7 +77,8 @@ Later, you’ll log in via browser: `https://<iDRAC-IP>`.
 ## RAID Configuration
 
 At this point, remove all but your drives (except your flash media, and the drive you want to install to). Then go ahead and install ESXi.  
-(I won’t go over that here since it’s a pretty straightforward installation.)  
+
+I won’t go over that here since it’s a pretty straightforward installation.  
 
 ![RAID PERC](/assets/RAIDPERC.jpg)
 
